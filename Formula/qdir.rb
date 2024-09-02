@@ -1,21 +1,21 @@
 class Qdir < Formula
   desc "A quick directory generator"
   homepage "https://github.com/k3ii/qdir"
-  version "0.1.1"
+  version "0.1.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/k3ii/qdir/releases/download/v0.1.1/qdir-aarch64-apple-darwin.tar.xz"
-      sha256 "4c9ecc7baa15225bc4d45e5d3f8459af21c776a4e3ddd24ace0cb5156b4b7f0a"
+      url "https://github.com/k3ii/qdir/releases/download/v0.1.2/qdir-aarch64-apple-darwin.tar.xz"
+      sha256 "b341ab61276223e94cae998f2c8ebb13bbb86f6ea4be99007429317d880ab7a6"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/k3ii/qdir/releases/download/v0.1.1/qdir-x86_64-apple-darwin.tar.xz"
-      sha256 "89f8a1b17ab21f819f90386eef03d6b77c8a6e38b37bc729d0003a1480f0fc1c"
+      url "https://github.com/k3ii/qdir/releases/download/v0.1.2/qdir-x86_64-apple-darwin.tar.xz"
+      sha256 "17893d6b7cf0305b3003c54a89c95c2e459e28054a156d1c1eb4e50d6eb5c34c"
     end
   end
   if OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/k3ii/qdir/releases/download/v0.1.1/qdir-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "944aaece4acab3e907da13f9821489cef2c61b15648d87a33e8a8d3704cc8034"
+      url "https://github.com/k3ii/qdir/releases/download/v0.1.2/qdir-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "3b5eaca1b4029b52aed53e4579941cbfd8c238e8f7cb89e9730ed29cbbc5e154"
     end
   end
 
