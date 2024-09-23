@@ -1,21 +1,21 @@
 class Kouran < Formula
   desc "View Power Outages in Mauritius"
   homepage "https://github.com/k3ii/kouran"
-  version "0.1.1"
+  version "0.1.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/k3ii/kouran/releases/download/v0.1.1/kouran-aarch64-apple-darwin.tar.xz"
-      sha256 "dc5666d4ccc37a64f660705a6ad159c870227fcbcb43dbea148df2a51eb283c0"
+      url "https://github.com/k3ii/kouran/releases/download/v0.1.2/kouran-aarch64-apple-darwin.tar.xz"
+      sha256 "8e3fc078dfba37539c573c39cafaa65607844737e49fef3841006c12813a02af"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/k3ii/kouran/releases/download/v0.1.1/kouran-x86_64-apple-darwin.tar.xz"
-      sha256 "fd283338c57eaa1d7059e9ec5c0f0e65d7eaa3ad4c72a875771f469a3f928637"
+      url "https://github.com/k3ii/kouran/releases/download/v0.1.2/kouran-x86_64-apple-darwin.tar.xz"
+      sha256 "3f37cf924162cb82581139031938cc08bb69466dfc440d1175c32267cedf7e10"
     end
   end
   if OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/k3ii/kouran/releases/download/v0.1.1/kouran-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "f7b4316614023e61ed2705d1de26818f89760027174cef125f87a92c345ecad6"
+      url "https://github.com/k3ii/kouran/releases/download/v0.1.2/kouran-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "13848c23f6bb04f8bba5c6de7ccbcf6cfc00540d1d246a81189ff542a1d68643"
     end
   end
   license "MIT"
