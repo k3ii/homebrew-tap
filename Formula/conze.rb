@@ -1,21 +1,21 @@
 class Conze < Formula
   desc "Explore holidays"
   homepage "https://github.com/k3ii/conze"
-  version "0.1.1"
+  version "0.1.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/k3ii/conze/releases/download/v0.1.1/conze-aarch64-apple-darwin.tar.xz"
-      sha256 "456d43f859c5d06409dcf12ee59a592d5cb3b301d1e07da65570f1133f38efab"
+      url "https://github.com/k3ii/conze/releases/download/v0.1.2/conze-aarch64-apple-darwin.tar.xz"
+      sha256 "d790f1f379c06584f662833c7dfc93f68c5c625c8ce66d1f9b451755f5301063"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/k3ii/conze/releases/download/v0.1.1/conze-x86_64-apple-darwin.tar.xz"
-      sha256 "a1997d9f3bead98355692e31cc0a4ee26b741c802a927623a4c7946c68ee5255"
+      url "https://github.com/k3ii/conze/releases/download/v0.1.2/conze-x86_64-apple-darwin.tar.xz"
+      sha256 "5c93c77beee6c40b2ef70f931ee059630ec0038a1fac9053ff6a9cca37ce4723"
     end
   end
   if OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/k3ii/conze/releases/download/v0.1.1/conze-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "dacde72eacea0c04fe0273b17b6e930f942450fabc5e9db7c47474cca396dcf3"
+      url "https://github.com/k3ii/conze/releases/download/v0.1.2/conze-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "f27f39e2d9e2eb487be1353b30d0ebda5fd1fa46eed3c7e3fd2b13ae90c2fc8a"
     end
   end
   license "MIT"
